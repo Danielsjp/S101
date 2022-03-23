@@ -9,8 +9,7 @@ public class Principal {
 		amphibian.Menjar();
 		amphibian.Respirar();
 		amphibian.Moure();
-		
-		//amphibian.play(); // no es accesible.
+		amphibian.saltar(); // no es accesible.
 	}
 
 }

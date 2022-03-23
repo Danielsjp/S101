@@ -12,9 +12,9 @@ final class Frog extends Amphibian{
 		
 	}
 	
-	 public void play()
+	 public void saltar()
 	    {
-	        System.out.println("Enjoying son");
+	        System.out.println("L´animal salta");
 	    }
 
 }

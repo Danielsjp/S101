@@ -1,9 +1,8 @@
-package n1exercici7;
-
+package n1exercici8;
 
 final class Frog extends Amphibian{  
 
-	String Raza;
+	public String Raza;
 	public Frog(String Name,int Size, int Legs, String Raza){
 		super(Name, Size, Legs);
 		this.Raza=Raza;
@@ -12,9 +11,9 @@ final class Frog extends Amphibian{
 		
 	}
 	
-	 public static void play()
+	 protected void Saltar() //podem accedir desde el package
 	    {
-	        System.out.println("Enjoying son");
+	        System.out.println("L´animal salta");
 	    }
 
 }
