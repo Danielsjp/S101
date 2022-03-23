@@ -9,20 +9,12 @@ public class Vehicle {
 	
 	public Vehicle()
 	{
-		
+		//static final String Nom="Unknow"; // No puede ser inicializado aqui
+		//final Integer Velocitat=2;
 		Velocitat = 10;
 		Estat = "parado";
 		System.out.println("Constructor");  
 	}
-	
-	public void Vehicle2()
-	{
-		Estat = "encendido";
-		// Velocitat = 11; // no permite ser cambiado
-		System.out.println("Constructor2");  
-	}
-	
-	
 	{
 		System.out.println("Bloque de inicializacón");  
 	}
