@@ -1,4 +1,4 @@
-package n1exercici6;
+package n1exercici7;
 
 public class Principal {
 
@@ -10,7 +10,7 @@ public class Principal {
 		amphibian.Respirar();
 		amphibian.Moure();
 		
-	
+		//amphibian.play(); // no es accesible.
 	}
 
 }
