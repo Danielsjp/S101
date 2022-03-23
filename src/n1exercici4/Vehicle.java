@@ -6,7 +6,6 @@ public class Vehicle {
 	final Integer Velocitat; //es una constante, pero no requiere ser inicializado. cuando tenga un valor no se puede cambiar
 	static String Estat="no se sabe"; // se puede inicializar aqui o en el constructor, el valor puede cambiar.
 
-	
 	public Vehicle()
 	{
 		//static final String Nom="Unknow"; // No puede ser inicializado aqui
@@ -15,6 +14,7 @@ public class Vehicle {
 		Estat = "parado";
 		System.out.println("Constructor");  
 	}
+	
 	{
 		System.out.println("Bloque de inicializacón");  
 	}
