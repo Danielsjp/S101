@@ -2,11 +2,11 @@ package n1exercici4;
 
 public class Vehicle {
 	
-	static final String Nom="Unknow"; //requiere ser inicializado ( ES UNA CONSTANTE )
-	final Integer Velocitat; //es una constante, pero no requiere ser inicializado. cuando tenga un valor no se puede cambiar
-	static String Estat="no se sabe"; // se puede inicializar aqui o en el constructor, el valor puede cambiar.
+	private static final String Nom="Unknow"; //requiere ser inicializado ( ES UNA CONSTANTE )
+	private final Integer Velocitat; //es una constante, pero no requiere ser inicializado. cuando tenga un valor no se puede cambiar
+	private static String Estat="no se sabe"; // se puede inicializar aqui o en el constructor, el valor puede cambiar.
 
-	public Vehicle()
+	protected Vehicle()
 	{
 		//static final String Nom="Unknow"; // No puede ser inicializado aqui
 		//final Integer Velocitat=2;

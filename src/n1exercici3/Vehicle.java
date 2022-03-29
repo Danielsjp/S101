@@ -2,12 +2,12 @@ package n1exercici3;
 
 public class Vehicle {
 	
-	String Nom;
-	Integer Velocitat;
-	String Estat;
+private String Nom;
+private Integer Velocitat;
+private String Estat;
 
 	
-	public Vehicle()
+	protected Vehicle()
 	{
 		System.out.println("Constructor");  
 	}

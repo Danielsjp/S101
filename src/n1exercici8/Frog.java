@@ -2,8 +2,8 @@ package n1exercici8;
 
 final class Frog extends Amphibian{  
 
-	public String Raza;
-	public Frog(String Name,int Size, int Legs, String Raza){
+	private String Raza;
+	private Frog(String Name,int Size, int Legs, String Raza){
 		super(Name, Size, Legs);
 		this.Raza=Raza;
 		

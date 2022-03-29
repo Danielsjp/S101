@@ -2,11 +2,11 @@ package n1exercici1;
 
 public class Vehicle {
 	
-	String Nom;
-	Integer Velocitat;
-	String Estat;
+	private String Nom;
+	private Integer Velocitat;
+	private String Estat;
 	
-	public Vehicle(){}
+	private Vehicle(){}
 	
 	public static void Iniciar() {
 		System.out.println("El coche esta arrancado");  

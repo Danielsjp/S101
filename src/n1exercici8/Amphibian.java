@@ -2,9 +2,9 @@ package n1exercici8;
 
 public class Amphibian {
 	
-	String Name;
-	int Size;
-	int Legs;
+	private  String Name;
+	private  int Size;
+	private  int Legs;
 	
 	public Amphibian(){}
 	public Amphibian(String Name, int Size, int Legs){

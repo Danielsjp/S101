@@ -1,9 +1,9 @@
 package n1exercici5;
 class Animal{  
 
-	String Corre;
-	int vel;
-	int MaxVel;
+	private String Corre;
+	private int vel;
+	private int MaxVel;
 
 	public Animal(){}
 	public Animal(String Corre, int vel, int MaxVel){
@@ -34,7 +34,7 @@ class Animal{
 
      final class Gat extends Animal{  
 
-	String Raza;
+    private String Raza;
 	public Gat(String Corre,int vel, int MaxVel, String Raza){
 		super(Corre, vel, MaxVel);
 		this.Raza=Raza;
